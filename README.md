@@ -106,8 +106,10 @@ Follow these steps carefully to set up the project.
 
 If using Git:
 
+```text
 git clone <https://github.com/aastha-sriv18/Traffic-Violation-Detector>
 cd traffic-violation-detector
+```
 
 If not using Git:
 
@@ -120,13 +122,15 @@ Open the extracted folder in terminal
 Creating a virtual environment is recommended to avoid dependency conflicts.
 
 #### For Windows
+```text
 python -m venv venv
 venv\Scripts\activate
-
+```
 #### For Linux / macOS
+```text
 python3 -m venv venv
 source venv/bin/activate
-
+```
 Once activated, your terminal should show the environment name, for example:
 
 (venv)
@@ -134,9 +138,9 @@ Once activated, your terminal should show the environment name, for example:
 ### Step 3: Install Required Dependencies
 
 Install all required Python libraries using:
-
+```text
 pip install -r requirements.txt
-
+```
 
 
 ## 8. Required Dependencies
@@ -173,9 +177,9 @@ The project is designed to run entirely from the command line.
 ### Basic Execution
 
 Run the following command:
-
+```text
 python main.py --input data/input/test.mp4 --output data/output/out.mp4
-
+```
 This will:
 
 - Read the input video
