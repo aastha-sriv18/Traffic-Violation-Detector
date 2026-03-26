@@ -83,7 +83,7 @@ traffic-violation-detector/
 ├── README.md               # Project documentation
 ├── report/                 # Project report files
 └── yolov8n.pt              # YOLOv8 pretrained model
-
+```
 
 ## 6. System Requirements
 
